@@ -4,12 +4,14 @@ import comentarioRouter from "./routes/comentarios/comentarios.router.js";
 import categoriaRouter from "./routes/Categorias/categorias.router.js";
 import express from 'express';
 import morgan from 'morgan';
+import cors from 'cors';
 const app = express();
 
 //settings
 app.set('port', process.env.PORT || 8080);
 
 //middleware
+app.use(cors({ origin: "http://localhost:5173" }));
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
