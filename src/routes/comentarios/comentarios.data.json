@@ -1,0 +1,59 @@
+[
+    {
+        "id": "1",
+        "id_bitacora": "1",
+        "id_usuario": "2",
+        "texto": "Excelente registro, muchas especies interesantes.",
+        "fecha": "2024-11-15"
+    },
+    {
+        "id": "2",
+        "id_bitacora": "2",
+        "id_usuario": "2",
+        "texto": "Excelente registro, muchas especies interesantes.",
+        "fecha": "2024-11-15"
+    },
+    {
+        "id": "3",
+        "id_bitacora": "1",
+        "id_usuario": "4",
+        "texto": "Excelente registro, muchas especies interesantes.",
+        "fecha": "2024-11-15"
+    },
+    {
+        "id": "4",
+        "id_bitacora": "3",
+        "id_usuario": "5",
+        "texto": "Excelente registro, muchas especies interesantes.",
+        "fecha": "2024-11-15"
+    },
+    {
+        "id": "5",
+        "id_bitacora": "1",
+        "id_usuario": "6",
+        "texto": "Buen registro, muchas especies interesantes.",
+        "fecha": "2024-11-15"
+    },
+    {
+        "id": "6",
+        "id_bitacora": "4",
+        "id_usuario": "3",
+        "texto": "Excelente registro, muchas especies interesantes.",
+        "fecha": "2024-11-15"
+    },
+    {
+        "id": "7",
+        "id_bitacora": "5",
+        "id_usuario": "4",
+        "texto": "Excelente registro, muchas especies interesantes.",
+        "fecha": "2024-11-15"
+    },
+    {
+        "id": "8",
+        "id_bitacora": "3",
+        "id_usuario": "2",
+        "texto": "Buen registro, muchas especies interesantes.",
+        "fecha": "2024-11-15"
+    }
+
+]

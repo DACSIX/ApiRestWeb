@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "titulo": "Bitacora 1",
+    "fecha_muestreo": "2024-11-15",
+    "localizacion": {
+      "lat": -3.4653,
+      "lng": -62.2159
+    },
+    "condiciones_climaticas": "Lluvioso",
+    "descripcion_habitat": "Selva tropical",
+    "fotos": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/100_1804.JPG/300px-100_1804.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Guyane_fr_savane-roche_virginie.jpg/420px-Guyane_fr_savane-roche_virginie.jpg"
+    ],
+    "id_usuario": "2",
+    "especies": [
+      "1",
+      "2"
+    ],
+    "categoria": "2",
+    "observaciones": "Malas condicones climaticas para el estudio"
+  },
+  {
+    "id": "2",
+    "titulo": "Bitacora 2",
+    "fecha_muestreo": "2024-11-15",
+    "localizacion": {
+      "lat": -3.4653,
+      "lng": -62.2159
+    },
+    "condiciones_climaticas": "soleado",
+    "descripcion_habitat": "Montañas con vegetación densa",
+    "fotos": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Gracias_%26_celaque_%2844%29.JPG/450px-Gracias_%26_celaque_%2844%29.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Semmering.JPG/450px-Semmering.JPG"
+    ],
+    "id_usuario": "3",
+    "especies": [
+      "3",
+      "4"
+    ],
+    "categoria": "3",
+    "observaciones": "buenas condicones climaticas para el estudio"
+  },
+  {
+    "id": "3",
+    "titulo": "Bitacora 3",
+    "fecha_muestreo": "2024-11-15",
+    "localizacion": {
+      "lat": -3.4653,
+      "lng": -62.2159
+    },
+    "condiciones_climaticas": "Lluvioso",
+    "descripcion_habitat": "Selva amazonica",
+    "fotos": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Amazonie.jpg/330px-Amazonie.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Amazon17_%285641020319%29.jpg/410px-Amazon17_%285641020319%29.jpg"
+    ],
+    "id_usuario": "4",
+    "especies": [
+      "5",
+      "6"
+    ],
+    "categoria": "2",
+    "observaciones": "Malas condicones climaticas para el estudio"
+  },
+  {
+    "id": "4",
+    "titulo": "Bitacora 4",
+    "fecha_muestreo": "2024-11-15",
+    "localizacion": {
+      "lat": -3.4653,
+      "lng": -62.2159
+    },
+    "condiciones_climaticas": "soleado",
+    "descripcion_habitat": "Selva tropical",
+    "fotos": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/7_-_Itahuania_-_Août_2008.JPG/375px-7_-_Itahuania_-_Août_2008.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Anacardium_occidentale_0001.jpg/375px-Anacardium_occidentale_0001.jpg"
+    ],
+    "id_usuario": "5",
+    "especies": [
+      "7",
+      "8"
+    ],
+    "categoria": "1",
+    "observaciones": "buenas condicones climaticas para el estudio"
+  },
+  {
+    "id": "5",
+    "titulo": "Bitacora 5",
+    "fecha_muestreo": "2024-11-15",
+    "localizacion": {
+      "lat": -3.4653,
+      "lng": -62.2159
+    },
+    "condiciones_climaticas": "Lluvioso",
+    "descripcion_habitat": "Selva amazonica",
+    "fotos": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Índios_isolados_no_Acre_5.jpg/330px-Índios_isolados_no_Acre_5.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Amazon_CIAT_%285%29.jpg/330px-Amazon_CIAT_%285%29.jpg"
+    ],
+    "id_usuario": "6",
+    "especies": [
+      "9",
+      "10"
+    ],
+    "categoria": "2",
+    "observaciones": "Malas condicones climaticas para el estudio"
+  }
+]

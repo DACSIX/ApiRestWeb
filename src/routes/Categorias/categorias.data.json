@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "nombre": "Tropical",
+        "descripcion": "Regiones con clima tropical"
+    },
+    {
+        "id": "2",
+        "nombre": "Lluvioso",
+        "descripcion": "Zonas con alta pluviosidad"
+    },
+    {
+        "id": "3",
+        "nombre": "Montañoso",
+        "descripcion": "Áreas con elevaciones montañosas"
+    }
+]

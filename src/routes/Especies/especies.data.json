@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nombreCientifico": "Ara militaris",
+        "nombreComun": "Guacamaya Verde",
+        "familia": "loros (Psittacidae)",
+        "cantidadMuestras": 0,
+        "estado": "vulnerable",
+        "fotografias": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ara_militaris_-London_Zoo-8a.jpg",
+            "https://avesdeperu.org/wp-content/uploads/2019/03/military_macaw-1.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "nombreCientifico": "Melopsittacus undulatus",
+        "nombreComun": "periquito australiano",
+        "familia": "loros",
+        "cantidadMuestras": 0,
+        "estado": "Aumento",
+        "fotografias": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Periquito_australiano.JPG/640px-Periquito_australiano.JPG",
+            "https://www.elmueble.com/medio/2022/10/18/periquitos_5df5a243_1000x666.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "nombreCientifico": "Cacatuidae",
+        "nombreComun": "Cacatúa",
+        "familia": "Cacatuidae; G.R. Gray, 1840",
+        "cantidadMuestras": 0,
+        "estado": "preocupación menor",
+        "fotografias": [
+            "https://estaticos-cdn.prensaiberica.es/clip/5cbb8dc9-6f47-4f18-b8f3-f72b98bbc43f_source-aspect-ratio_default_0.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cacatua_galerita_2_-_Austin%27s_Ferry.jpg/250px-Cacatua_galerita_2_-_Austin%27s_Ferry.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "nombreCientifico": "Myiopsitta monachus",
+        "nombreComun": "cotorra argentina",
+        "familia": "Psittacidae",
+        "cantidadMuestras": 0,
+        "estado": "preocupación menor",
+        "fotografias": [
+            "https://econews.global/wp-content/uploads/2023/10/Cotorra-argentina-econews.jpg",
+            "https://i0.wp.com/puppis.blog/wp-content/uploads/2022/06/como-cuidar-a-una-cotorra-min.jpg?resize=900%2C600&ssl=1"
+        ]
+    },
+    {
+        "id": 5,
+        "nombreCientifico": "Glaucidium nana",
+        "nombreComun": "Chuncho",
+        "familia": "Strigidae",
+        "cantidadMuestras": 0,
+        "estado": "preocupación menor",
+        "fotografias": [
+            "https://www.ecoregistros.org/site/images/albumes/257/8281/CABURE-GRANDE-2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Austral_Pygmy-owl_%28Glaucidium_nanum%29.jpg/250px-Austral_Pygmy-owl_%28Glaucidium_nanum%29.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "nombreCientifico": "Tyto alba",
+        "nombreComun": "Lechuza de campanario",
+        "familia": "Tytonidae",
+        "cantidadMuestras": 0,
+        "estado": "preocupación menor",
+        "fotografias": [
+            "https://inaturalist-open-data.s3.amazonaws.com/photos/165796939/original.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tyto_alba_close_up.jpg/200px-Tyto_alba_close_up.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "nombreCientifico": "Agapornis roseicollis",
+        "nombreComun": "Pato real",
+        "familia": "Anatidae",
+        "cantidadMuestras": 0,
+        "estado": "preocupacion menor",
+        "fotografias": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Anas_sibilatrix_-Puerto_Natales%2C_Patagonia%2C_Chile_-family-8_%282%29.jpg/230px-Anas_sibilatrix_-Puerto_Natales%2C_Patagonia%2C_Chile_-family-8_%282%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Muscovy_Duck_%28Cairina_moschata%29_male_%2829039391935%29.jpg/413px-Muscovy_Duck_%28Cairina_moschata%29_male_%2829039391935%29.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "nombreCientifico": "Strigops habroptilus",
+        "nombreComun": "kakapo",
+        "familia": "Strigopidae; Bonaparte",
+        "cantidadMuestras": 0,
+        "estado": "peligro extinción",
+        "fotografias": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sirocco_full_length_portrait.jpg/250px-Sirocco_full_length_portrait.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Strigops_habroptilus%2C_face.jpg/330px-Strigops_habroptilus%2C_face.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "nombreCientifico": "Pithecophaga jefferyi",
+        "nombreComun": "Águila monera o águila filipina",
+        "familia": "Accipitridae",
+        "cantidadMuestras": 0,
+        "estado": "peligro extinción",
+        "fotografias": [
+            "https://inaturalist-open-data.s3.amazonaws.com/photos/4307008/large.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Pithecophaga_jefferyi.jpg/250px-Pithecophaga_jefferyi.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "nombreCientifico": "Rhinoplax vigil",
+        "nombreComun": "Cálao de yelmo",
+        "familia": "Bucerotidae",
+        "cantidadMuestras": 0,
+        "estado": "peligro extinción",
+        "fotografias": [
+            "https://www.salvalaselva.org/uploads/photos/article/wide/xl/hornbill-ausschnitt.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Helmeted_Hornbill.jpg/250px-Helmeted_Hornbill.jpg"
+        ]
+    }
+]
