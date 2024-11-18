@@ -1,16 +1,17 @@
 {
   "name": "proyectowebapi",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "start":"node src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.1",
     "morgan": "^1.10.0"
   },
