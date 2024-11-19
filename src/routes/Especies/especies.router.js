@@ -11,6 +11,16 @@ router.get("/", (req, res) => {
     res.send(especies);
 })
 
+router.get("/:id", (req, res) => {
+    const { id } = req.params;
+    const encontrado = especies.find((item) => item.id == id);
+    if (encontrado) {
+        return res.send(encontrado);
+    } else {
+        return res.status(404).send({ status: "error", error: "Especies not found" });
+    }
+});
+
 //Crear nueva especie
 router.post("/", (req, res) => {
     const { id, nombreCientifico, nombreComun, familia, cantidadMuestras, estado, fotografias } = req.body;

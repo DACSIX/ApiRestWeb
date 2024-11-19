@@ -10,6 +10,16 @@ const router = Router();
 router.get("/", (req, res) => {
     res.send(bitacoras);
 });
+
+router.get("/:id", (req, res) => {
+    const { id } = req.params;
+    const encontrado = bitacoras.find((item) => item.id == id);
+    if (encontrado) {
+        return res.send(encontrado);
+    } else {
+        return res.status(404).send({ status: "error", error: "Bitacora not found" });
+    }
+});
 //Crear una bitacora
 router.post("/", (req, res) => {
     const { id, titulo, fecha_muestreo, localizacion, condiciones_climaticas, descripcion_habitat, fotos, id_usuario, especies, categoria, observaciones } = req.body;

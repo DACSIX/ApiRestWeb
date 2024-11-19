@@ -10,6 +10,16 @@ const router = Router();
 router.get("/", (req, res) => {
     res.send(comentarios);
 });
+
+router.get("/:id", (req, res) => {
+    const { id } = req.params;
+    const encontrado = comentarios.find((item) => item.id == id);
+    if (encontrado) {
+        return res.send(encontrado);
+    } else {
+        return res.status(404).send({ status: "error", error: "Comentario not found" });
+    }
+});
 //Crear nuevo comentario
 router.post("/", (req, res) => {
     const { id, id_bitacora, id_usuario, texto, fecha} = req.body;

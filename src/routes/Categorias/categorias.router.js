@@ -10,9 +10,19 @@ const router = Router();
 router.get("/", (req, res) => {
     res.send(categorias);
 })
+
+router.get("/:id", (req, res) => {
+    const { id } = req.params;
+    const encontrado = categorias.find((item) => item.id == id);
+    if (encontrado) {
+        return res.send(encontrado);
+    } else {
+        return res.status(404).send({ status: "error", error: "Categoria not found" });
+    }
+});
 //Crear categoria
 router.post("/", (req, res) => {
-    const { id, nombre,descripcion } = req.body;
+    const { id, nombre, descripcion } = req.body;
     if (!id || !nombre || !descripcion) {
         return res.status(400).send("invalid data")
     } else {
@@ -25,7 +35,7 @@ router.post("/", (req, res) => {
 //Actualizar
 router.put("/:id", (req, res) => {
     const { id } = req.params;
-    const { id: newId, nombre,descripcion } = req.body;
+    const { id: newId, nombre, descripcion } = req.body;
     if (newId && nombre && descripcion) {
         let categoriaEncontrado = false;
         categorias.map((item) => {
@@ -47,13 +57,13 @@ router.put("/:id", (req, res) => {
 });
 //Delete
 router.delete("/:id", (req, res) => {
-    const id = req.params.id; 
-    const index = categorias.findIndex((item) => item.id == id); 
+    const id = req.params.id;
+    const index = categorias.findIndex((item) => item.id == id);
     if (index === -1) {
-        return res.status(400).send({status: "error",error: "Data not found",});
+        return res.status(400).send({ status: "error", error: "Data not found", });
     }
     // Elimina r usuario
     categorias.splice(index, 1);
-    res.send({status: "OK", message: "Categoria deleted successfully",});
+    res.send({ status: "OK", message: "Categoria deleted successfully", });
 });
 export default router;
